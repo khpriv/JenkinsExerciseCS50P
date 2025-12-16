@@ -26,7 +26,7 @@ pipeline {
             }
             post {
                 success {
-                    archiveArtifacts 'ship/jar_exec'
+                    archiveArtifacts 'dist/jar'
                 }
             }
         }
